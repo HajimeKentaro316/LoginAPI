@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新規会員登録画面</title>
+    <script src="./js/register.js" defer></script>
+</head>
+<body>
+    <h1>新規会員登録画面</h1>
+    姓：<input id="firstName" type="text">
+    名：<input id="lastName" type="text"><br><br>
+    メールアドレス：<input id="email" type="email"><br><br>
+    パスワード：<input id="password" type="password"><br><br>
+
+    <input type="button" value="登録" onclick="sendFormData()">
+    <div id="message"></div>
+</body>
+</html>

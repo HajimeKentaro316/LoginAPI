@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="./js/login.js" defer></script>
+</head>
+<body>
+    <h1>ログイン</h1>
+    <label>
+        メールアドレス
+        <input id="email" name="email" type="email">
+    </label><br><br>
+    <label>
+        パスワード
+        <input id="password" name="password" type="password">
+    </label><br><br>
+
+    <input type="button" value="ログイン" onclick="sendFormData()">
+    <span id="loginResult"></span>
+</body>
+</html>
